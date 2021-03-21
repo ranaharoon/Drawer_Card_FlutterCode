@@ -6,6 +6,7 @@ void main() => runApp(
         home: MCont(),
         theme: ThemeData(
           primarySwatch: Colors.purple,
+          primaryColor: Colors.pink,
         ),
       ),
     );
@@ -18,8 +19,6 @@ class MCont extends StatelessWidget {
         title: Text("Layout"),
       ),
       body: Container(
-        //padding: EdgeInsets.all(20.0),
-        //margin: EdgeInsets.all(20.0),
         width: MediaQuery.of(context).size.width,
         height: MediaQuery.of(context).size.height,
         child: Column(
