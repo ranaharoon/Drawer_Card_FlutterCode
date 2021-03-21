@@ -23,7 +23,6 @@ class MCont extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
-          //crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Container(
               height: 100,
